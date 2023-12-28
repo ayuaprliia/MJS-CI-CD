@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/springboot-images-new.jar springboot-images-new.jar
-ENTRYPOINT ["java","-jar","/springboot-images-new.jar"]
+ADD target/belajar-cicd.jar belajar-cicd.jar
+ENTRYPOINT ["java","-jar","/belajar-cicd.jar"]
